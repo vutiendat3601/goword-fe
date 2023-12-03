@@ -1,0 +1,63 @@
+.wrapper {
+    width: 100%;
+}
+
+.background {
+    background: rgb(18, 12, 106);
+    background: linear-gradient(120deg, rgba(18, 12, 106, 1) 4%, rgba(2, 0, 36, 1) 25%, rgba(17, 61, 111, 1) 98%);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-left: 12px;
+}
+
+.image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 24px;
+    width: 380px;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.heading {
+    margin-top: 4px;
+    color: #aaa;
+    font-weight: 700;
+    text-align: center;
+}
+
+.body {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

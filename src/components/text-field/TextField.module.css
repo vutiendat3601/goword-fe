@@ -1,0 +1,78 @@
+.text-field {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid #e3e3e3;
+}
+
+.text-field--textarea {
+    height: auto;
+}
+
+.textarea {
+    display: block;
+    outline: none;
+    border: none;
+    width: 100%;
+    resize: none;
+    flex: 1;
+}
+
+.text-field:focus-within {
+    border: 1px solid #2e2e2e;
+}
+
+.label {
+    display: none;
+    padding: 0 8px;
+    color: #aaa;
+    font-size: 1.4rem;
+    width: 100%;
+    flex: 1;
+}
+
+
+.label.label--shown {
+    display: flex;
+    align-items: flex-end;
+}
+
+.label.label--textarea {
+    padding: 8px 8px 4px;
+    height: 22px;
+}
+
+.input,
+.textarea {
+    padding: 0 8px;
+    font-size: 1.6rem;
+}
+
+.input {
+    flex: 1;
+    width: 100%;
+}
+
+.textarea {
+    padding: 8px;
+}
+
+.textarea:not(:placeholder-shown) {
+    padding-top: 0;
+}
+
+
+.password-toggle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 8px;
+    top: 8px;
+    bottom: 8px;
+    background: transparent;
+    border: none;
+    flex: 1;
+}

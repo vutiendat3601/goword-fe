@@ -1,0 +1,36 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: rgb(18, 12, 106);
+    background: linear-gradient(120deg, rgba(18, 12, 106, 1) 4%, rgba(2, 0, 36, 1) 25%, rgba(17, 61, 111, 1) 98%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* #: Hero */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.info {
+    margin-left: 28px;
+    /* display: flex; */
+    align-items: center;
+}
+
+.logo {
+    margin-left: 12px;
+}
+
+.slogan {
+    color: #fff;
+}
+
+/* # Hero */

@@ -1,0 +1,52 @@
+.thumb {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 220px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.thumb-preview {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    margin: auto;
+    /* border-radius: 8px; */
+}
+
+.file {
+    display: none;
+}
+
+.desc-box {
+    width: 100%;
+    border-radius: 4px;
+    resize: none;
+}
+
+.action-title {
+    top: 50%;
+    right: 50%;
+    /* left: 0; */
+    /* bottom: 0; */
+    position: absolute;
+}
+
+.action {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.content {
+    height: 240px;
+}
+
+.content-editor {
+    height: 200px;
+    font-size: 1.6rem;
+}

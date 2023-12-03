@@ -1,0 +1,12 @@
+.plan-list {
+    /* justify-content: center; */
+    /* align-content: center; */
+    margin-top: 12px;
+
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    height: calc(100vh - var(--header-height) - 160px);
+    overflow-y: auto;
+}

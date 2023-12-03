@@ -1,0 +1,15 @@
+version: '3.7'
+name: 'goword'
+services:
+  goword-fe:
+    hostname: goword-fe
+    container_name: goword-fe
+    image: vutiendat3601/goword-fe:1.0.0
+    ports:
+      - 443:443
+    networks:
+      - default
+networks:
+  default:
+    name: goword
+    driver: bridge

@@ -1,0 +1,25 @@
+.action {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.action-link {
+    font-size: 1.4rem;
+    color: #777;
+}
+
+.action-link:hover {
+    text-decoration: underline;
+    color: #444;
+}
+
+.form-submit {
+    margin-top: 12px;
+}
+
+
+.submit-btn {
+    margin-top: 12px;
+}

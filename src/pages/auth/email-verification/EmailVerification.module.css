@@ -1,0 +1,27 @@
+.message {
+    display: flex;
+    padding: 12px;
+    border-radius: 4px;
+    justify-content: flex-start;
+    align-items: center;
+    height: 68px;
+    background: #388E3C;
+    color: #000;
+}
+
+.message.error {
+    background: #D32F2F;
+    color: #fff;
+}
+
+.message-content {
+    font-size: 1.4rem;
+    margin-left: 8px;
+    line-height: 1.2;
+}
+
+.cta {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}

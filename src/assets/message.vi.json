@@ -1,0 +1,7 @@
+{
+  "E40001": "Xác thực email thất bại, vui lòng đăng nhập với thông tin đã đăng ký để nhận lại mã xác thực mới.",
+  "E4011": "Tài khoản chưa xác thực email, vui lòng kiểm tra hộp thư email để xác thực.",
+  "E40901": "Email đã được đăng ký, vui lòng thử lại với email khác.",
+  "SIGN_UP_SUCCESS": "Tài khoản đã được đăng ký thành công, vui lòng kiểm tra hộp thư email để xác thực.",
+  "E401": "Thông tin xác thực không chính xác."
+}

@@ -1,0 +1,33 @@
+.form-group {
+    width: 600px;
+    padding: 0 12px;
+}
+
+.form-input {
+    display: flex;
+    align-items: center;
+}
+
+.form-title {
+    width: 64px;
+}
+
+.form-input input {
+    flex: 1;
+    padding: 0 8px;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    height: 32px;
+    border: 1px solid #aeaeae;
+}
+
+.form-message {
+    margin-top: 8px;
+    margin-left: 64px;
+    color: var(--text-error);
+}
+
+.submit-btn {
+    margin-top: 8px;
+    padding: 0 12px;
+}
