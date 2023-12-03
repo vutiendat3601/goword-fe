@@ -44,7 +44,7 @@ function ExerciseCard({
       </p>
 
       <div className={css('action')}>
-        {permissions.includes('DELETE_PLAN') && (
+        {permissions.includes('DELETE_EXERCISE') && (
           <button
             className={css('delete-btn')}
             onClick={(e: any) => handleDelete(id)}
